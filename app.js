@@ -31,13 +31,13 @@ J.addEventListener("click", event =>{
     document.getElementById("jclick").play();
 })
 K.addEventListener("click", event =>{
-    document.getElementById("kc").play();
+    document.getElementById("kclick").play();
 })
 L.addEventListener("click", event =>{
     document.getElementById("lclick").play();
 })
 
-A.addEventListener("keydown", event =>{
-    if(event.key == 65){
-    document.getElementById("aclick").play();}
+window.addEventListener("keydown", function(e){
+    const audio = this.document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    audio.play();
 })

@@ -73,6 +73,7 @@
    margin: 20px;
  
  }
+
  #L{
     background-color: #031b24; 
     color:#e9d8a6 ;
@@ -85,4 +86,41 @@
 #container{
     display: flex;
 justify-content: center;
+}
+
+#A:hover {
+   filter: blur(2.5px);
+
+}
+#S:hover {
+    filter: blur(2.5px);
+ 
+ }#D:hover {
+    filter: blur(2.5px);
+ 
+ }#F:hover {
+    filter: blur(2.5px);
+ 
+ }#G:hover {
+    filter: blur(2.5px);
+ 
+ }#H:hover {
+    filter: blur(2.5px);
+ 
+ }#J:hover {
+    filter: blur(2.5px);
+ 
+ }#K:hover {
+    filter: blur(2.5px);
+ 
+ }#L:hover {
+    filter: blur(2.5px);
+ 
+ }
+ #conttwo{
+    display: flex;
+    justify-content: center;
+ }
+#photo:hover {
+    filter: blur(2.5px);
 }
